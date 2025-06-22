@@ -8,7 +8,6 @@
   "workbench.statusBar.visible": false,
   "workbench.sideBar.location": "right",
   "editor.tabSize": 4,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Iosevka",
   "markdown.preview.fontFamily": "Iosevka",
   "debug.console.fontFamily": "Iosevka",
@@ -34,12 +33,6 @@
     "editor.defaultFormatter": "cweijan.vscode-database-client2"
   },
   "git.confirmSync": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
@@ -55,6 +48,26 @@
   "makefile.configureOnOpen": false,
   "editor.bracketPairColorization.enabled": false,
   "symbols.folders.associations": {
-    "pipeline": "folder-pipes"
+    "pipeline": "folder-pipes",
+    "data": "folder-database",
+    "docs": "folder-blue",
+    "functions": "folder-blue",
+    "_actions": "folder-red",
+    "_functions": "folder-blue",
+    "_components": "folder-green-code",
+    "_types": "folder-blue-code",
+    "_hooks": "folder-hooks"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
